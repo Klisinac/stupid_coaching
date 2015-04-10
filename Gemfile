@@ -43,3 +43,9 @@ group :development, :test do
   gem 'spring'
 end
 
+# Gemfile
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
